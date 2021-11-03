@@ -1,0 +1,7 @@
+.idea
+.env
+.rar
+*.db
+*.sql
+__pycache__
+env

@@ -1,0 +1,36 @@
+# пример списка в виде строки
+['action', 'to', 'from', 'encoding', 'message']
+
+# пример структурированного списка
+- action
+- to
+- from
+- encoding
+- message
+
+# пример словаря в виде строки
+{'action': 'msg', 'to': 'account_name'}
+
+# пример словаря в виде блока
+'action': 'msg'
+'to': 'account_name'
+
+# оформление строк со специальными символами
+command: "action | to"
+
+# примеры комбинаций элементов
+# словарь с элементами-списками
+message:
+- msg_1
+- msg_2
+- msg_3
+to:
+- account_1
+- account_2
+- account_3
+
+# список словарей
+- action: msg_1
+  to: account_1
+- action: msg_2
+  to: account_2
