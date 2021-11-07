@@ -1,7 +1,10 @@
 .idea
 .env
-.rar
+*.rar
 *.db
 *.sql
 __pycache__
 env
+env_310
+for_dev
+ToDo.txt
