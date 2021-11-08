@@ -1,7 +1,6 @@
 import socket
 import random
 import json
-from loguru import logger
 
 from common.methods_utils import (
     connect_server,
@@ -57,7 +56,7 @@ def run_client():
         write_message(client, message_to_server)
 
         server_response = validation_server_response(read_message(client))
-        logger.info(f'Ответ сервера: {server_response}')
+        print(server_response)
 
     except (ValueError, json.JSONDecodeError):
         print('Ошибка декодирования сообщения сервера.')
@@ -67,5 +66,4 @@ if __name__ == '__main__':
     try:
         run_client()
     except ConnectionResetError:
-        logger.info('Хост разорвал подключение')
-    exit()
+        exit()

@@ -1,6 +1,5 @@
 import socket
 import random
-from loguru import logger
 import json
 
 from common.methods_utils import (
@@ -55,11 +54,8 @@ def start_server():
 
     while True:
         conn, address = server.accept()
-        logger.info(f'Serving on {address[0]} port {address[1]}')
         try:
             client_message = read_message(conn)
-            logger.info(f'Полное сообщение от клиента: {client_message}')
-
             server_response = validation_and_response(client_message)
             write_message(conn, server_response)
             conn.close()
@@ -71,5 +67,4 @@ if __name__ == '__main__':
     try:
         start_server()
     except KeyboardInterrupt:
-        logger.info('Stop server by keyboard...')
-    exit()
+        exit()
