@@ -1,0 +1,24 @@
+2021-11-10 17:05:41,480 CRITICAL config_server_log.py Критическая ошибка
+2021-11-10 17:05:41,480 ERROR config_server_log.py Ошибка
+2021-11-10 17:05:41,480 DEBUG config_server_log.py Отладочная информация
+2021-11-10 17:05:41,480 INFO config_server_log.py Информационное сообщение
+2021-11-10 17:06:43,475 CRITICAL config_server_log.py Критическая ошибка
+2021-11-10 17:06:43,476 ERROR config_server_log.py Ошибка
+2021-11-10 17:06:43,476 DEBUG config_server_log.py Отладочная информация
+2021-11-10 17:06:43,476 INFO config_server_log.py Информационное сообщение
+2021-11-10 17:07:20,399 CRITICAL config_server_log.py Критическая ошибка
+2021-11-10 17:07:20,399 ERROR config_server_log.py Ошибка
+2021-11-10 17:07:20,400 DEBUG config_server_log.py Отладочная информация
+2021-11-10 17:07:20,400 INFO config_server_log.py Информационное сообщение
+2021-11-10 17:08:23,534 CRITICAL config_server_log.py Критическая ошибка
+2021-11-10 17:08:23,535 ERROR config_server_log.py Ошибка
+2021-11-10 17:08:23,535 DEBUG config_server_log.py Отладочная информация
+2021-11-10 17:08:23,535 INFO config_server_log.py Информационное сообщение
+2021-11-10 17:15:13,592 CRITICAL config_server_log.py Критическая ошибка
+2021-11-10 17:15:13,592 ERROR config_server_log.py Ошибка
+2021-11-10 17:15:13,592 DEBUG config_server_log.py Отладочная информация
+2021-11-10 17:15:13,592 INFO config_server_log.py Информационное сообщение
+2021-11-10 18:13:33,205 CRITICAL config_server_log.py Критическая ошибка
+2021-11-10 18:13:33,205 ERROR config_server_log.py Ошибка
+2021-11-10 18:13:33,205 DEBUG config_server_log.py Отладочная информация
+2021-11-10 18:13:33,205 INFO config_server_log.py Информационное сообщение
