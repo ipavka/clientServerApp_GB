@@ -1,0 +1,10 @@
+[13 Nov 2021 16:13:52] [DEBUG]  app_server.py  @ Вызываемая функция: <connect_server> | c аргументам (), {} | Модуль <common.methods_utils> | Вызов из функции <start_server>
+[13 Nov 2021 16:13:54] [INFO]  app_server.py  Открытие соединения с ('127.0.0.1', 63647)
+[13 Nov 2021 16:13:54] [DEBUG]  app_server.py  @ Вызываемая функция: <read_message> | c аргументам (<socket.socket fd=428, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63647)>,), {} | Модуль <common.methods_utils> | Вызов из функции <start_server>
+[13 Nov 2021 16:13:54] [DEBUG]  app_server.py  Сообщение от клиента: {'action': 'presence', 'time': '2021/11/13 16:13:54', 'text': 'hi', 'user': {'user_name': 'Anonymous'}}
+[13 Nov 2021 16:13:54] [DEBUG]  app_server.py  Проверяем что прислал клиент: {'action': 'presence', 'time': '2021/11/13 16:13:54', 'text': 'hi', 'user': {'user_name': 'Anonymous'}}
+[13 Nov 2021 16:13:54] [DEBUG]  app_server.py  Ответ сервера 200 {'response': 200, 'text': 'morning'}
+[13 Nov 2021 16:13:54] [DEBUG]  app_server.py  @ Вызываемая функция: <validation_and_response> | c аргументам ({'action': 'presence', 'time': '2021/11/13 16:13:54', 'text': 'hi', 'user': {'user_name': 'Anonymous'}},), {} | Модуль <__main__> | Вызов из функции <start_server>
+[13 Nov 2021 16:13:54] [DEBUG]  app_server.py  Ответ клиенту: {'action': 'presence', 'time': '2021/11/13 16:13:54', 'text': 'hi', 'user': {'user_name': 'Anonymous'}}
+[13 Nov 2021 16:13:54] [DEBUG]  app_server.py  @ Вызываемая функция: <write_message> | c аргументам (<socket.socket fd=428, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63647)>, {'response': 200, 'text': 'morning'}), {} | Модуль <common.methods_utils> | Вызов из функции <start_server>
+[13 Nov 2021 16:13:54] [DEBUG]  app_server.py  Закрытие соединения с: ('127.0.0.1', 63647)

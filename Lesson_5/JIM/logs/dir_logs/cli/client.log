@@ -1,0 +1,23 @@
+[12 Nov 2021 15:14:54] [DEBUG]  app_client.py  Сформировано сообщение {'action': 'presence', 'time': '2021/11/12 15:14:54', 'text': 'good morning', 'user': {'user_name': 'Anonymous'}} от клиента Anonymous
+[12 Nov 2021 15:14:54] [DEBUG]  app_client.py  Отправка сообщение серверу: {'action': 'presence', 'time': '2021/11/12 15:14:54', 'text': 'good morning', 'user': {'user_name': 'Anonymous'}}
+[12 Nov 2021 15:14:54] [DEBUG]  app_client.py  Проверяем что прислал сервер: {'response': 200, 'text': 'Шалом'}
+[12 Nov 2021 15:14:54] [DEBUG]  app_client.py  Ответ сервера: 200 : OK
+[12 Nov 2021 15:14:59] [DEBUG]  app_client.py  Сформировано сообщение {'action': 'presence', 'time': '2021/11/12 15:14:59', 'text': 'Привет Сервер', 'user': {'user_name': 'Anonymous'}} от клиента Anonymous
+[12 Nov 2021 15:14:59] [DEBUG]  app_client.py  Отправка сообщение серверу: {'action': 'presence', 'time': '2021/11/12 15:14:59', 'text': 'Привет Сервер', 'user': {'user_name': 'Anonymous'}}
+[12 Nov 2021 15:14:59] [DEBUG]  app_client.py  Проверяем что прислал сервер: {'response': 200, 'text': 'hello'}
+[12 Nov 2021 15:14:59] [DEBUG]  app_client.py  Ответ сервера: 200 : OK
+[12 Nov 2021 15:15:09] [DEBUG]  app_client.py  Сформировано сообщение {'action': 'presence', 'time': '2021/11/12 15:15:09', 'text': 'Привет Сервер', 'user': {'user_name': 'Anonymous'}} от клиента Anonymous
+[12 Nov 2021 15:15:09] [DEBUG]  app_client.py  Отправка сообщение серверу: {'action': 'presence', 'time': '2021/11/12 15:15:09', 'text': 'Привет Сервер', 'user': {'user_name': 'Anonymous'}}
+[12 Nov 2021 15:15:09] [DEBUG]  app_client.py  Проверяем что прислал сервер: {'response': 200, 'text': 'hi'}
+[12 Nov 2021 15:15:09] [DEBUG]  app_client.py  Ответ сервера: 200 : OK
+[12 Nov 2021 15:15:16] [DEBUG]  app_client.py  Сформировано сообщение {'action': 'presence', 'time': '2021/11/12 15:15:16', 'text': 'hi', 'user': {'user_name': 'Anonymous'}} от клиента Anonymous
+[12 Nov 2021 15:15:16] [DEBUG]  app_client.py  Отправка сообщение серверу: {'action': 'presence', 'time': '2021/11/12 15:15:16', 'text': 'hi', 'user': {'user_name': 'Anonymous'}}
+[12 Nov 2021 15:15:16] [DEBUG]  app_client.py  Проверяем что прислал сервер: {'response': 200, 'text': 'good evening'}
+[12 Nov 2021 15:15:16] [DEBUG]  app_client.py  Ответ сервера: 200 : OK
+[12 Nov 2021 15:21:19] [DEBUG]  app_client.py  Сформировано сообщение {'action': 'presence', 'time': '2021/11/12 15:21:19', 'text': 'Привет Сервер', 'user': {'user_name': 'Anonymous'}} от клиента Anonymous
+[12 Nov 2021 15:21:19] [DEBUG]  app_client.py  Отправка сообщение серверу: {'action': 'presence', 'time': '2021/11/12 15:21:19', 'text': 'Привет Сервер', 'user': {'user_name': 'Anonymous'}}
+[12 Nov 2021 15:21:19] [DEBUG]  app_client.py  Проверяем что прислал сервер: {'response': 200, 'text': 'hi'}
+[12 Nov 2021 15:21:19] [DEBUG]  app_client.py  Ответ сервера: 200 : OK
+[12 Nov 2021 15:21:29] [DEBUG]  app_client.py  Сформировано сообщение {'action': 'presence', 'time': '2021/11/12 15:21:29', 'text': 'hey', 'user': {'user_name': 'Anonymous'}} от клиента Anonymous
+[12 Nov 2021 15:21:29] [DEBUG]  app_client.py  Отправка сообщение серверу: {'action': 'presence', 'time': '2021/11/12 15:21:29', 'text': 'hey', 'user': {'user_name': 'Anonymous'}}
+[12 Nov 2021 15:21:29] [CRITICAL]  app_client.py  Сервер ('127.0.0.1', 7777) отверг запрос на подключение

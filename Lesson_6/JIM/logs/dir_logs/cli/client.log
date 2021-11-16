@@ -1,0 +1,9 @@
+[13 Nov 2021 16:13:54] [DEBUG]  app_client.py  @ Вызываемая функция: <connect_server> | c аргументам (), {} | Модуль <common.methods_utils> | Вызов из функции <run_client>
+[13 Nov 2021 16:13:54] [DEBUG]  app_client.py  Сформировано сообщение {'action': 'presence', 'time': '2021/11/13 16:13:54', 'text': 'hi', 'user': {'user_name': 'Anonymous'}} от клиента Anonymous
+[13 Nov 2021 16:13:54] [DEBUG]  app_client.py  @ Вызываемая функция: <prepare_request> | c аргументам (), {} | Модуль <__main__> | Вызов из функции <run_client>
+[13 Nov 2021 16:13:54] [DEBUG]  app_client.py  Отправка сообщение серверу: {'action': 'presence', 'time': '2021/11/13 16:13:54', 'text': 'hi', 'user': {'user_name': 'Anonymous'}}
+[13 Nov 2021 16:13:54] [DEBUG]  app_client.py  @ Вызываемая функция: <write_message> | c аргументам (<socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63647), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': '2021/11/13 16:13:54', 'text': 'hi', 'user': {'user_name': 'Anonymous'}}), {} | Модуль <common.methods_utils> | Вызов из функции <run_client>
+[13 Nov 2021 16:13:54] [DEBUG]  app_client.py  @ Вызываемая функция: <read_message> | c аргументам (<socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63647), raddr=('127.0.0.1', 7777)>,), {} | Модуль <common.methods_utils> | Вызов из функции <run_client>
+[13 Nov 2021 16:13:54] [DEBUG]  app_client.py  Проверяем что прислал сервер: {'response': 200, 'text': 'morning'}
+[13 Nov 2021 16:13:54] [DEBUG]  app_client.py  @ Вызываемая функция: <validation_server_response> | c аргументам ({'response': 200, 'text': 'morning'},), {} | Модуль <__main__> | Вызов из функции <run_client>
+[13 Nov 2021 16:13:54] [DEBUG]  app_client.py  Ответ сервера: 200 : OK

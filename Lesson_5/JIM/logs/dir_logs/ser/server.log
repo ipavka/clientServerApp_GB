@@ -1,0 +1,31 @@
+[12 Nov 2021 15:14:54] [INFO]  app_server.py  Открытие соединения с ('127.0.0.1', 58257)
+[12 Nov 2021 15:14:54] [DEBUG]  app_server.py  Сообщение от клиента: {'action': 'presence', 'time': '2021/11/12 15:14:54', 'text': 'good morning', 'user': {'user_name': 'Anonymous'}}
+[12 Nov 2021 15:14:54] [DEBUG]  app_server.py  Проверяем что прислал клиент: {'action': 'presence', 'time': '2021/11/12 15:14:54', 'text': 'good morning', 'user': {'user_name': 'Anonymous'}}
+[12 Nov 2021 15:14:54] [DEBUG]  app_server.py  Ответ сервера 200 {'response': 200, 'text': 'Шалом'}
+[12 Nov 2021 15:14:54] [DEBUG]  app_server.py  Ответ клиенту: {'action': 'presence', 'time': '2021/11/12 15:14:54', 'text': 'good morning', 'user': {'user_name': 'Anonymous'}}
+[12 Nov 2021 15:14:54] [DEBUG]  app_server.py  Закрытие соединения с: ('127.0.0.1', 58257)
+[12 Nov 2021 15:14:59] [INFO]  app_server.py  Открытие соединения с ('127.0.0.1', 58258)
+[12 Nov 2021 15:14:59] [DEBUG]  app_server.py  Сообщение от клиента: {'action': 'presence', 'time': '2021/11/12 15:14:59', 'text': 'Привет Сервер', 'user': {'user_name': 'Anonymous'}}
+[12 Nov 2021 15:14:59] [DEBUG]  app_server.py  Проверяем что прислал клиент: {'action': 'presence', 'time': '2021/11/12 15:14:59', 'text': 'Привет Сервер', 'user': {'user_name': 'Anonymous'}}
+[12 Nov 2021 15:14:59] [DEBUG]  app_server.py  Ответ сервера 200 {'response': 200, 'text': 'hello'}
+[12 Nov 2021 15:14:59] [DEBUG]  app_server.py  Ответ клиенту: {'action': 'presence', 'time': '2021/11/12 15:14:59', 'text': 'Привет Сервер', 'user': {'user_name': 'Anonymous'}}
+[12 Nov 2021 15:14:59] [DEBUG]  app_server.py  Закрытие соединения с: ('127.0.0.1', 58258)
+[12 Nov 2021 15:15:09] [INFO]  app_server.py  Открытие соединения с ('127.0.0.1', 58259)
+[12 Nov 2021 15:15:09] [DEBUG]  app_server.py  Сообщение от клиента: {'action': 'presence', 'time': '2021/11/12 15:15:09', 'text': 'Привет Сервер', 'user': {'user_name': 'Anonymous'}}
+[12 Nov 2021 15:15:09] [DEBUG]  app_server.py  Проверяем что прислал клиент: {'action': 'presence', 'time': '2021/11/12 15:15:09', 'text': 'Привет Сервер', 'user': {'user_name': 'Anonymous'}}
+[12 Nov 2021 15:15:09] [DEBUG]  app_server.py  Ответ сервера 200 {'response': 200, 'text': 'hi'}
+[12 Nov 2021 15:15:09] [DEBUG]  app_server.py  Ответ клиенту: {'action': 'presence', 'time': '2021/11/12 15:15:09', 'text': 'Привет Сервер', 'user': {'user_name': 'Anonymous'}}
+[12 Nov 2021 15:15:09] [DEBUG]  app_server.py  Закрытие соединения с: ('127.0.0.1', 58259)
+[12 Nov 2021 15:15:16] [INFO]  app_server.py  Открытие соединения с ('127.0.0.1', 58260)
+[12 Nov 2021 15:15:16] [DEBUG]  app_server.py  Сообщение от клиента: {'action': 'presence', 'time': '2021/11/12 15:15:16', 'text': 'hi', 'user': {'user_name': 'Anonymous'}}
+[12 Nov 2021 15:15:16] [DEBUG]  app_server.py  Проверяем что прислал клиент: {'action': 'presence', 'time': '2021/11/12 15:15:16', 'text': 'hi', 'user': {'user_name': 'Anonymous'}}
+[12 Nov 2021 15:15:16] [DEBUG]  app_server.py  Ответ сервера 200 {'response': 200, 'text': 'good evening'}
+[12 Nov 2021 15:15:16] [DEBUG]  app_server.py  Ответ клиенту: {'action': 'presence', 'time': '2021/11/12 15:15:16', 'text': 'hi', 'user': {'user_name': 'Anonymous'}}
+[12 Nov 2021 15:15:16] [DEBUG]  app_server.py  Закрытие соединения с: ('127.0.0.1', 58260)
+[12 Nov 2021 15:21:19] [INFO]  app_server.py  Открытие соединения с ('127.0.0.1', 65140)
+[12 Nov 2021 15:21:19] [DEBUG]  app_server.py  Сообщение от клиента: {'action': 'presence', 'time': '2021/11/12 15:21:19', 'text': 'Привет Сервер', 'user': {'user_name': 'Anonymous'}}
+[12 Nov 2021 15:21:19] [DEBUG]  app_server.py  Проверяем что прислал клиент: {'action': 'presence', 'time': '2021/11/12 15:21:19', 'text': 'Привет Сервер', 'user': {'user_name': 'Anonymous'}}
+[12 Nov 2021 15:21:19] [DEBUG]  app_server.py  Ответ сервера 200 {'response': 200, 'text': 'hi'}
+[12 Nov 2021 15:21:19] [DEBUG]  app_server.py  Ответ клиенту: {'action': 'presence', 'time': '2021/11/12 15:21:19', 'text': 'Привет Сервер', 'user': {'user_name': 'Anonymous'}}
+[12 Nov 2021 15:21:19] [DEBUG]  app_server.py  Закрытие соединения с: ('127.0.0.1', 65140)
+[12 Nov 2021 15:21:29] [DEBUG]  app_server.py  Подключение остановлено пользователем с клавиатуры
