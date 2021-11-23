@@ -1,0 +1,48 @@
+[21 Nov 2021 09:23:06] [DEBUG]  methods_utils.py  @ Вызываемая функция: <get_ip_port_and_mod> | c аргументам (), {} | Модуль <common.methods_utils> | Вызов из функции <connect_client>
+[21 Nov 2021 09:23:06] [DEBUG]  app_client.py  @ Вызываемая функция: <connect_client> | c аргументам (), {} | Модуль <common.methods_utils> | Вызов из функции <run_client>
+[21 Nov 2021 09:23:06] [INFO]  app_client.py  Запуск Клиента < Max хост: <127.0.0.1> порт: <7777>
+[21 Nov 2021 09:23:06] [DEBUG]  app_client.py  Сформировано сообщение {'action': 'presence', 'time': '2021/11/21 09:23:06', 'user': {'user_name': 'Max'}} от клиента Max
+[21 Nov 2021 09:23:06] [DEBUG]  app_client.py  @ Вызываемая функция: <prepare_request> | c аргументам ('Max',), {} | Модуль <__main__> | Вызов из функции <run_client>
+[21 Nov 2021 09:23:06] [DEBUG]  app_client.py  Отправка сообщение серверу: {'action': 'presence', 'time': '2021/11/21 09:23:06', 'user': {'user_name': 'Max'}}
+[21 Nov 2021 09:23:06] [DEBUG]  app_client.py  @ Вызываемая функция: <write_message> | c аргументам (<socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49812), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': '2021/11/21 09:23:06', 'user': {'user_name': 'Max'}}), {} | Модуль <common.methods_utils> | Вызов из функции <run_client>
+[21 Nov 2021 09:23:06] [DEBUG]  app_client.py  @ Вызываемая функция: <read_message> | c аргументам (<socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49812), raddr=('127.0.0.1', 7777)>,), {} | Модуль <common.methods_utils> | Вызов из функции <run_client>
+[21 Nov 2021 09:23:06] [DEBUG]  app_client.py  Проверяем что прислал сервер: {'response': 200}
+[21 Nov 2021 09:23:06] [DEBUG]  app_client.py  @ Вызываемая функция: <validation_server_response> | c аргументам ({'response': 200},), {} | Модуль <__main__> | Вызов из функции <run_client>
+[21 Nov 2021 09:23:06] [DEBUG]  app_client.py  Ответ сервера: 200 : OK
+[21 Nov 2021 09:23:06] [DEBUG]  app_client.py  что то про процессы
+[21 Nov 2021 09:23:08] [DEBUG]  methods_utils.py  @ Вызываемая функция: <get_ip_port_and_mod> | c аргументам (), {} | Модуль <common.methods_utils> | Вызов из функции <connect_client>
+[21 Nov 2021 09:23:08] [DEBUG]  app_client.py  @ Вызываемая функция: <connect_client> | c аргументам (), {} | Модуль <common.methods_utils> | Вызов из функции <run_client>
+[21 Nov 2021 09:23:08] [INFO]  app_client.py  Запуск Клиента < Вася хост: <127.0.0.1> порт: <7777>
+[21 Nov 2021 09:23:08] [DEBUG]  app_client.py  Сформировано сообщение {'action': 'presence', 'time': '2021/11/21 09:23:08', 'user': {'user_name': 'Вася'}} от клиента Вася
+[21 Nov 2021 09:23:08] [DEBUG]  app_client.py  @ Вызываемая функция: <prepare_request> | c аргументам ('Вася',), {} | Модуль <__main__> | Вызов из функции <run_client>
+[21 Nov 2021 09:23:08] [DEBUG]  app_client.py  Отправка сообщение серверу: {'action': 'presence', 'time': '2021/11/21 09:23:08', 'user': {'user_name': 'Вася'}}
+[21 Nov 2021 09:23:08] [DEBUG]  app_client.py  @ Вызываемая функция: <write_message> | c аргументам (<socket.socket fd=428, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49813), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': '2021/11/21 09:23:08', 'user': {'user_name': 'Вася'}}), {} | Модуль <common.methods_utils> | Вызов из функции <run_client>
+[21 Nov 2021 09:23:09] [DEBUG]  app_client.py  @ Вызываемая функция: <read_message> | c аргументам (<socket.socket fd=428, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49813), raddr=('127.0.0.1', 7777)>,), {} | Модуль <common.methods_utils> | Вызов из функции <run_client>
+[21 Nov 2021 09:23:09] [DEBUG]  app_client.py  Проверяем что прислал сервер: {'response': 200}
+[21 Nov 2021 09:23:09] [DEBUG]  app_client.py  @ Вызываемая функция: <validation_server_response> | c аргументам ({'response': 200},), {} | Модуль <__main__> | Вызов из функции <run_client>
+[21 Nov 2021 09:23:09] [DEBUG]  app_client.py  Ответ сервера: 200 : OK
+[21 Nov 2021 09:23:09] [DEBUG]  app_client.py  что то про процессы
+[21 Nov 2021 09:23:25] [DEBUG]  app_client.py  Пользователь Вася сформировал сообщение {'action': 'message', 'from': 'Вася', 'to': 'Max', 'time': '2021/11/21 09:23:25', 'text': 'Привет, Макс!'}
+[21 Nov 2021 09:23:25] [DEBUG]  app_client.py  @ Вызываемая функция: <write_message> | c аргументам (<socket.socket fd=428, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49813), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'Вася', 'to': 'Max', 'time': '2021/11/21 09:23:25', 'text': 'Привет, Макс!'}), {} | Модуль <common.methods_utils> | Вызов из функции <make_message>
+[21 Nov 2021 09:23:25] [INFO]  app_client.py  Отправлено сообщение пользователю Max
+[21 Nov 2021 09:23:25] [DEBUG]  app_client.py  @ Вызываемая функция: <make_message> | c аргументам (<socket.socket fd=428, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49813), raddr=('127.0.0.1', 7777)>, 'Вася'), {} | Модуль <__main__> | Вызов из функции <interface_client>
+[21 Nov 2021 09:23:25] [DEBUG]  app_client.py  @ Вызываемая функция: <read_message> | c аргументам (<socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49812), raddr=('127.0.0.1', 7777)>,), {} | Модуль <common.methods_utils> | Вызов из функции <server_message>
+[21 Nov 2021 09:23:25] [INFO]  app_client.py  Сообщение Привет, Макс! от пользователя Вася
+[21 Nov 2021 09:23:56] [DEBUG]  app_client.py  Пользователь Max сформировал сообщение {'action': 'message', 'from': 'Max', 'to': 'Вася', 'time': '2021/11/21 09:23:56', 'text': 'И тебе, привет! :)'}
+[21 Nov 2021 09:23:56] [DEBUG]  app_client.py  @ Вызываемая функция: <write_message> | c аргументам (<socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49812), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'Max', 'to': 'Вася', 'time': '2021/11/21 09:23:56', 'text': 'И тебе, привет! :)'}), {} | Модуль <common.methods_utils> | Вызов из функции <make_message>
+[21 Nov 2021 09:23:56] [INFO]  app_client.py  Отправлено сообщение пользователю Вася
+[21 Nov 2021 09:23:56] [DEBUG]  app_client.py  @ Вызываемая функция: <make_message> | c аргументам (<socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49812), raddr=('127.0.0.1', 7777)>, 'Max'), {} | Модуль <__main__> | Вызов из функции <interface_client>
+[21 Nov 2021 09:23:56] [DEBUG]  app_client.py  @ Вызываемая функция: <read_message> | c аргументам (<socket.socket fd=428, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49813), raddr=('127.0.0.1', 7777)>,), {} | Модуль <common.methods_utils> | Вызов из функции <server_message>
+[21 Nov 2021 09:23:56] [INFO]  app_client.py  Сообщение И тебе, привет! :) от пользователя Max
+[21 Nov 2021 09:24:08] [DEBUG]  app_client.py  @ Вызываемая функция: <message_exit> | c аргументам ('Вася',), {} | Модуль <__main__> | Вызов из функции <interface_client>
+[21 Nov 2021 09:24:08] [DEBUG]  app_client.py  @ Вызываемая функция: <write_message> | c аргументам (<socket.socket fd=428, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49813), raddr=('127.0.0.1', 7777)>, {'action': 'exit', 'time': '2021/11/21 09:24:08', 'user_name': 'Вася'}), {} | Модуль <common.methods_utils> | Вызов из функции <interface_client>
+[21 Nov 2021 09:24:08] [INFO]  app_client.py  Клиент завершил работу...
+[21 Nov 2021 09:24:08] [CRITICAL]  app_client.py  Ошибка соединения с сервером!!!
+[21 Nov 2021 09:24:08] [DEBUG]  threading.py  @ Вызываемая функция: <server_message> | c аргументам (<socket.socket fd=428, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49813), raddr=('127.0.0.1', 7777)>, 'Вася'), {} | Модуль <__main__> | Вызов из функции <run>
+[21 Nov 2021 09:24:08] [DEBUG]  threading.py  @ Вызываемая функция: <interface_client> | c аргументам (<socket.socket fd=428, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49813), raddr=('127.0.0.1', 7777)>, 'Вася'), {} | Модуль <__main__> | Вызов из функции <run>
+[21 Nov 2021 09:24:13] [DEBUG]  app_client.py  @ Вызываемая функция: <message_exit> | c аргументам ('Max',), {} | Модуль <__main__> | Вызов из функции <interface_client>
+[21 Nov 2021 09:24:13] [DEBUG]  app_client.py  @ Вызываемая функция: <write_message> | c аргументам (<socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49812), raddr=('127.0.0.1', 7777)>, {'action': 'exit', 'time': '2021/11/21 09:24:13', 'user_name': 'Max'}), {} | Модуль <common.methods_utils> | Вызов из функции <interface_client>
+[21 Nov 2021 09:24:13] [INFO]  app_client.py  Клиент завершил работу...
+[21 Nov 2021 09:24:13] [CRITICAL]  app_client.py  Ошибка соединения с сервером!!!
+[21 Nov 2021 09:24:13] [DEBUG]  threading.py  @ Вызываемая функция: <server_message> | c аргументам (<socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49812), raddr=('127.0.0.1', 7777)>, 'Max'), {} | Модуль <__main__> | Вызов из функции <run>
+[21 Nov 2021 09:24:14] [DEBUG]  threading.py  @ Вызываемая функция: <interface_client> | c аргументам (<socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49812), raddr=('127.0.0.1', 7777)>, 'Max'), {} | Модуль <__main__> | Вызов из функции <run>

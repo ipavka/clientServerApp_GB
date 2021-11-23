@@ -1,0 +1,26 @@
+host_conf:
+  DEFAULT_PORT: 7777
+  DEFAULT_IP: 127.0.0.1
+jit_key:
+  ACTION: action
+  TIME: time
+  USER: user
+  SENDER: sender
+  ACCOUNT_NAME: user_name
+  MESSAGE_TEXT: text
+  MESSAGE: message
+other_key:
+  PRESENCE: presence
+  RESPONSE: response
+  ERROR: error
+  BAD_REQ: Bad Request
+settings:
+  MAX_CONNECT: 5
+  MAX_LENGTH: 1024
+  ENCODING: utf-8
+logging_level:
+  CRITICAL: 50
+  ERROR: 40
+  WARNING: 30
+  INFO: 20
+  DEBUG: 10
